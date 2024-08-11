@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="Styleutlities.css">
+<link rel="stylesheet" href="style_contact.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo"><img width="25px" src="logo.png" alt=""></div>
+            <ul class="midnav">
+                <i id="side" class='bx bx-menu' style='color:#0ddef1'></i>
+                <div class="logo_inner"><img width="25px" src="logo.png" alt=""></div>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Aboutme.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+            <div class="resume">
+                <a href="https://drive.google.com/file/d/1DOA1KnzYWLzzTEWI_Z1KC9lyYBsz4y9t/view?usp=sharing"
+                    target="_blank"><button class="resume">Resume</button></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div>
+        </div>
+        <div class="img">
+            <img src="PHOTO-2024-08-04-10-29-46 2 Background Removed.png" alt="photo">
+        </div>
+        <div class="Contact_Container">
+            <div class="heading">
+                <h1>Let's Connect</h1>
+            </div>
+            <form onsubmit="emailsend(); reset(); return false;">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email ID" required>
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                <input type="number" name="phone" id="number" placeholder="Phone No " required>
+                <textarea name="msg" rows="7" id="msg" placeholder="Your Massage" required></textarea>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="row1">
+                <h1>Ankit's Portfolio</h1>
+                <p>Thank you for visiting My Personal Portfolio Website. Connect with me at my social & let's build
+                    something great together.🤝</p>
+            </div>
+            <div class="row2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <a href="Home.html">
+                        <li><i class='bx bx-link-external'></i>Home</li>
+                    </a>
+                    <a href="Aboutme.html">
+                        <li><i class='bx bx-link-external'></i>About me</li>
+                    </a>
+                    <a href="skills.html">
+                        <li><i class='bx bx-link-external'></i>Skills</li>
+                    </a>
+                    <a href="Projects.html">
+                        <li><i class='bx bx-link-external'></i>Projects</li>
+                    </a>
+                    <a href="Education.html">
+                        <li><i class='bx bx-link-external'></i>Education</li>
+                    </a>
+                    <a href="Contact.html">
+                        <li><i class='bx bx-link-external'></i>Contact me</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="row3">
+                <h2>Contact info</h2>
+                <ul>
+                    <li><i class='bx bx-phone bx-tada' style='color:#ffffed'></i>+91 9467418838</li>
+                    <li><i class='bx bx-envelope bx-tada' style='color:#ffffed'></i>jangra.ankit1811@gmail.com</li>
+                    <li><i class='bx bxs-map-pin bx-flashing' style='color:#ffffed'></i>Hisar, Haryana (125001)</li>
+                </ul>
+                <div class="social_media">
+                    <a target="_blank" href="https://www.linkedin.com/in/ankit-jangra-0b0a5b268"><i
+                            class='bx bxl-linkedin-square bx-tada' style='color:#285dda'></i></a>
+                    <a target="_blank" href="https://www.instagram.com/_ankit._.jangra/""><i class='bx bxl-instagram bx-tada' style='color:#e637be' ></i></a>
+                    <a target=" _blank" href="https://github.com/dashboard"><i class='bx bxl-github bx-tada'
+                            style='color:#e1e2d8'></i></a>
+                    <a target="_blank" href="https://www.facebook.com/ankit.jangra.14855/"><i
+                            class='bx bxl-facebook-square bx-tada' style='color:#3a3aea'></i></a>
+                </div>
+            </div>
+            <div class="author">
+                &#169 Desgined With ❤️ by <span> Ankit</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="sidebar.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,311 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.background {
+    background-image: url(backgrounds.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1 {
+    font-size: 90px;
+    color: white;
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    float: left;
+    height: 100vh;
+
+}
+
+.name {
+    padding: 20%;
+    padding-bottom: 30px;
+    padding-top: 30%;
+}
+
+i {
+    padding-top: 100px;
+    padding: 0px 10px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.icons {
+    padding-left: 20%;
+}
+
+.about {
+    font-size: 20px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20%;
+
+}
+.contactme{
+    margin: auto;
+    margin-top: 30px;
+    height: 5px;
+    cursor: pointer;
+
+}
+.contactme>button:hover{
+    color: black;
+    background-color: aqua;
+}
+
+.hire {
+    padding: 8px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.part2 {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.s1{
+    height: 2px;
+    width: 40vw;
+    background-color: white;
+    margin: 20px;
+}
+
+.s2{
+    height: 2px;
+    width: 40vw;
+    background-color: white;
+    margin: 20px;
+}
+
+.s3{
+    height: 2px;
+    width: 40vw;
+    background-color: white;
+    margin: 20px;
+}
+
+.s4{
+    height: 2px;
+    width: 40vw;
+    background-color: white;
+    margin: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.midnav {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    margin-top: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+.resume{
+    justify-content: center;
+    align-items: center;
+}
+
+.resume:hover {
+    color: aqua;
+}
+.hire:hover{
+    color: black;
+    background-color: aqua;
+}
+i:hover{
+    border-radius: 10px;
+    background-color: black;
+    
+}
+li{
+    cursor:pointer;
+}
+.midnav>li>a:hover{
+    font-size: 16px;
+    text-decoration:underline;
+    text-decoration-line: underline;
+    color: aqua;
+}
+.item:hover{
+    color: aqua;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.bx-home-smile{
+    cursor: pointer;
+}
+@media screen and (max-width:400px) {
+    body {
+        background-color: black;
+        height: 844px;
+        width: 390px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .background {
+        background-image: url(backgrounds.jpg);
+        width: 420px;
+        height: 854px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .icons {
+        padding-left: 45%;
+        margin: 0px;
+        display: flex;
+    }
+
+    .about {
+        font-size: 14px;
+        padding-left: 33%;
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 60vw;
+    }
+
+    .part1 {
+        display: flex;
+        float: none;
+        height: 48%;
+    }
+
+    .name {
+        padding-left: 50%;
+        padding-bottom: 0px;
+        margin: 0px;
+        display: flex;
+    }
+
+    .part2 {
+        display: grid;
+        float: left;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1px 12px;
+        margin-top: 80px;
+        padding-left: 28%;
+    }
+
+    .lists>ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30px;
+        padding: 80px;
+    }
+
+    .s1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .item1 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+    .s2{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .item2 {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .s3{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .item3 {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+.s4{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+    .item4 {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .s5{
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .item5 {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+    .hire{
+         width: 140px;
+        position: relative;
+        left: 10px;
+        top: -50px;
+    }
+    .midnav{
+        grid-template-columns: 80px 80px 80px;
+    }
+    .bx-home-smile{
+        padding: 0px;
+        margin-right: 10px;
+    }
+    .resume{
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .contactme{
+        position: relative;
+        left: 35px;
+    }
+}
